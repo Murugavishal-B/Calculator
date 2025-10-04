@@ -5,7 +5,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000; /* optional dark background */
 }
 
 #calculator {
@@ -65,15 +64,4 @@ button:active {
 }
 .op-but:active {
   background-color: hsl(39, 100%, 70%);
-}
-
-/* Optional: Desktop Enhancements */
-@media (min-width: 600px) {
-  #display {
-    font-size: 3rem;
-  }
-
-  button {
-    font-size: 2rem;
-  }
 }
